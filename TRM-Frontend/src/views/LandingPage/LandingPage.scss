@@ -1,0 +1,199 @@
+.landing-page {
+  p {
+    font-weight: 500;
+  }
+  .container {
+    width: 90%;
+  }
+  .landing-page-header-section {
+    .landing-page-header {
+      .title-description {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .separator.title-description__seperator.separator--blue {
+          display: none;
+        }
+      }
+    }
+  }
+  .landing-page-link-section {
+    margin-top: 2%;
+    .featured-card {
+      width: 33%;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      display: inline-block;
+      .featured-card-frame {
+        max-width: none;
+        margin-top: 4%;
+        .featured-card-frame__wrapper.section-shadow--tile {
+          .featured-card-content.featured-card__section-bg.section-shadow {
+            .featured-card__section {
+              .title-description {
+                .separator.title-description__seperator.separator--blue {
+                  background: #f18a9b;
+                }
+                .title-description__content {
+                  p {
+                    text-overflow: clip;
+                  }
+                  button {
+                    margin-top: 10%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .landing-page-social-section {
+    position: relative;
+    padding-top: 10%;
+    overflow: hidden;
+    .landing-page-social-bg {
+      background-color: #0d1925;
+      .container {
+        .title-description {
+          margin-top: 4%;
+          margin-bottom: 4%;
+          h1 {
+            color: white;
+          }
+          hr {
+            background: #f18a9b
+          }
+          .title-description__content {
+            width: 40%;
+            p {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .image-section {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      .google-image {
+        width: 17%;
+      }
+      .apple-image {
+        width: 18%;
+      }
+      .phone-image {
+        position: absolute;
+        width: 60%;
+        top: -6%;
+        left: 52%;
+      }
+    }
+  }
+  .landing-page-footer-section {
+    margin-bottom: 12%;
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0, rgba(238,238,238,0) 30px); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0,rgba(238,238,238,0) 30px); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0,rgba(238,238,238,0) 30px); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#00eeeeee',GradientType=0 ); /* IE6-9 */
+    .section-left {
+      width: 40%;
+      margin-top: 5%;
+      float: left;
+
+      .title-description {
+        hr {
+          background-color: #f18a9b;
+        }
+      }
+
+      button {
+        margin-left: -51px;
+        border: none;
+        margin-top: 1%;
+        font-style: italic;
+      }
+
+      .social-icons {
+        .fa.fa-phone {
+          width: 100%;
+          &::before {
+            color: #f18a9b;
+          }
+          .number {
+            display: inline-block;
+            margin-left: 6%;
+          }
+          .period {
+            display: inline-block;
+            margin-left: 40%;
+          }
+        }
+        .fa.fa-facebook {
+          width: 100%;
+          margin-top: 1%;
+          &::before {
+            color: #f18a9b;
+          }
+          .title {
+            display: inline-block;
+            margin-left: 6%;
+          }
+        }
+        .fa.fa-twitter {
+          width: 100%;
+          margin-top: 1%;
+          &::before {
+            color: #f18a9b;
+          }
+          .title {
+            display: inline-block;
+            margin-left: 6%;
+          }
+        }
+        .fa.fa-linkedin-square {
+          width: 100%;
+          margin-top: 1%;
+          &::before {
+            color: #f18a9b;
+          }
+          .title {
+            display: inline-block;
+            margin-left: 6%;
+          }
+        }
+      }
+    }
+    .section-right {
+      width: 50%;
+      float: left;
+      margin-left: 10%;
+      margin-top: 12%;
+      .landing-page-form {
+        .email {
+          margin-top: 4%;
+        }
+        .subject {
+          margin-top: 4%;
+          .sort-select {
+            .sort-select__middle {
+              padding: 0;
+            }
+          }
+        }
+        .message {
+          .textarea.feed-submit__textarea-container {
+            border-bottom: 1px solid #8a8a8a;
+          }
+        }
+        .submit {
+          button {
+            margin-top: 6%;
+          }
+        }
+      }
+    }
+  }
+}

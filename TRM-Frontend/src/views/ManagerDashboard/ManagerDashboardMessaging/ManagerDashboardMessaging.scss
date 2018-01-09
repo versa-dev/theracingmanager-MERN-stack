@@ -1,0 +1,62 @@
+.manager-dashboard {
+
+  .container.manager-dashboard__messaging {
+    margin-top: 5%;
+    margin-bottom: 12%;
+    padding: 0 20%;
+
+    @media all and (max-width: $screen-sm-min) {
+      padding: 0 10px;
+    }
+
+    .msg-input {
+
+      .input-label {
+        display: inline-block;
+        width: 30px;
+        vertical-align: top;
+        margin-top: 9px;
+      }
+      .input {
+        display: inline-block;
+        width: calc(100% - 30px);
+
+        .Select-control {
+          border: none;
+          border-bottom: 1px solid #8a8a8a;
+          border-radius: 0;
+        }
+
+        .Select-value {
+
+          .Select-value-icon {
+            background-color: #8a8a8a;
+            color: white;
+          }
+
+          .Select-value-label {
+            background-color: #8a8a8a;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .feed-submit {
+      margin-top: 3%;
+      .icon.icon--paperclip {
+        display: none;
+      }
+
+      .feed-submit__title {
+        display: none;
+      }
+    }
+
+    .result-message {
+      p {
+        margin-top: 42px;
+      }
+    }
+  }
+}

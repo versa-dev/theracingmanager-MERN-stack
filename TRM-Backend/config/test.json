@@ -1,0 +1,11 @@
+{
+  "server": {
+    "port": 9632
+  },
+  "db": {
+    "name": "test"
+  },
+  "storage": {
+    "path": "test-uploads"
+  }
+}

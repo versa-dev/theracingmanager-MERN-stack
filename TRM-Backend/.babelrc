@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./server"]
+    }],
+    "transform-es2015-modules-commonjs"
+  ]
+}
