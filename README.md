@@ -8,7 +8,7 @@ React, Redux, Node.js, MongoDB
 Live Website: uat.theracingmanager.com
 
 # Project Info
- ---created by international team (7 members)
+ ---created by international team (5 members)
  ---2017. 11.1
 
 # My role
