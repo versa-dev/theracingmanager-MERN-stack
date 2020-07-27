@@ -13,4 +13,4 @@ Live Website: uat.theracingmanager.com
 
 # My role
  ---For first two months, worked with ReactJS & Redux in front-end
- ---For next one month, worked with Node.j & MongoDB in back-end
+ ---For next one month, worked with Node.js & MongoDB in back-end.
